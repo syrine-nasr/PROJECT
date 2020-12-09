@@ -14,9 +14,10 @@ import { AppComponent } from './app.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { LoginComponent } from './login/login.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
-
+import { PostCreateComponent } from './post-create/post-create.component';
+import { HeaderComponent } from './header/header.component';
 @NgModule({
-  declarations: [AppComponent, Comp1Component, LoginComponent],
+  declarations: [AppComponent, Comp1Component, LoginComponent, PostCreateComponent, HeaderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
